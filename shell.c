@@ -3,7 +3,7 @@
  * shell -  infinite loop that runs shell
  * @ac: arg count
  * @av: arg passed to shell
- * env: Env
+ * @env: Env
  * Return: void
  */
 void shell(int ac, char **av, char **env)
