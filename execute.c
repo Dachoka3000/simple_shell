@@ -13,7 +13,7 @@ int execute_prog(char **args, char *line, char **env, int flow)
 	int status;
 
 	if (args[0] == NULL)
-		return = (1);
+		return (1);
 	if (flow == 1)
 	{
 		if (check_for_builtins(args, line, env) == 1)
